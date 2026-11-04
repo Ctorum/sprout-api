@@ -1,4 +1,5 @@
 mod api;
+mod scopes;
 
 use tokio::net::TcpListener;
 use tower_http::trace::TraceLayer;
